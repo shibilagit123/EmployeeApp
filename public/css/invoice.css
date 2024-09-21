@@ -1,0 +1,103 @@
+.icon-listcu
+        {
+          color: #2697B7;
+          margin-right: 10px;
+        }
+        .class-tittle
+        {
+          font-weight: 300;
+          color: #535353;
+        }
+
+        .invoice
+        {
+          margin: 20px;
+        }
+        .contact-info
+        {
+         text-align: right;
+         font-size: 16px;
+       }
+       .header-invoice
+       {
+        border-bottom: solid 2px #199FBC;
+        margin-bottom: 20px;
+      }
+      .invoice-no p
+      {
+        font-size: 24px;
+        color: #0E506C;
+      }
+
+      .total-footer > .form-group
+      {
+        padding-top: 20px ;
+        margin-top: 20px;
+      }
+      .total-footer input
+      {
+        border: none;
+      }
+      
+      .total-footer h4
+      {
+        color: #131313;
+      }
+      .text-sub
+      {
+        color: #1C6774 !important;
+      }
+      .hrc
+      {
+        border-top: 1px solid #DBDBDB;
+        margin: 5px;
+        margin-right: 0px;
+      }
+      .footer-data
+      {
+        width: 100%;
+        margin-bottom: 25px;
+        margin-top: 25px;   
+        color: #0E7897;
+        border:dotted 1px #0E7897;
+        font-style: italic;
+        padding: 20px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+      .sn-prvw {
+        border: 1px solid #ccc;
+        display: inline-block;
+        height: 67px;
+        text-align: center;
+        width: 100%;
+      }
+      .bottom-foter
+      {
+        box-shadow: 0 0 5px 0px #8a8a8a;
+        padding: 20px;
+        line-height: 25px;
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+      .footer-head
+      {    width: 100%;
+        
+        text-align: center;
+        padding: 10px;
+        background-color: #519eb7;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 25px;
+      }
+      .span-dotted
+      {
+        border-bottom: dotted 1px ;
+        padding-bottom: 10px;
+        min-width: 200px;
+        line-height: 50px;
+        color: #2190B4;
+        font-weight: bold;
+      }
