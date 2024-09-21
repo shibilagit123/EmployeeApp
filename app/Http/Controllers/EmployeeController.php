@@ -40,8 +40,8 @@ class EmployeeController extends Controller
     
 
         $rules = [
-             'mobile'=>'required',
-             'email'=>'required',
+             'mobile'=>'required|numeric|digits:10',
+             'email'=>'required|email',
             
         ];
         $validation =Validator::make($request->all(), $rules);
@@ -88,7 +88,7 @@ class EmployeeController extends Controller
 
             $ajax['status'] = "success";
             $ajax['id'] = $id;
-            $ajax['msg'] = 'Time  has been created';
+            $ajax['msg'] = 'Employee has been created';
 
         }
 
@@ -122,8 +122,8 @@ class EmployeeController extends Controller
     public function update(Request $request, string $id)
     {
           $rules = [
-             'mobile'=>'required',
-             'email'=>'required',
+             'mobile'=>'required|numeric|digits:10',
+             'email'=>'required|email',
             
         ];
         $validation =Validator::make($request->all(), $rules);
@@ -170,7 +170,7 @@ class EmployeeController extends Controller
 
             $ajax['status'] = "success";
             $ajax['id'] = $id;
-            $ajax['msg'] = 'Time  has been created';
+            $ajax['msg'] = 'Employee has been created';
 
         }
 
